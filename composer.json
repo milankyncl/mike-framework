@@ -1,0 +1,25 @@
+{
+    "name": "mike/framework",
+    "description": "Mike is an PHP framework, built with experiences of 5 years making websites.",
+    "type": "library",
+    "require": {
+        "twig/twig": "~1.0",
+        "symfony/yaml": "3.4.x-dev"
+    },
+    "webisite" : "https://milankyncl.cz/mike",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "milankyncl",
+            "email": "kontakt@milankyncl.cz",
+            "role": "Developer",
+            "homepage": "https://www.milankyncl.cz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload" : {
+        "psr-4": {
+            "Mike\\": "src/Mike/"
+        }
+    }
+}
